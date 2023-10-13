@@ -1,0 +1,19 @@
+{
+  "name": "ttv-famous-followers",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "server": "bun src/server.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "redis": "^4.6.10"
+  }
+}
