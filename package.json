@@ -8,9 +8,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "start": "bun src/index.ts",
-    "dev": "bun --watch src/index.ts",
-    "server": "bun src/server.ts"
+    "start": "bun src/index.ts"
   },
   "type": "module",
   "dependencies": {
